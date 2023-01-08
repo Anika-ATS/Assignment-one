@@ -27,7 +27,7 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
         
 }
-p{
+#p1{
     position: absolute;
     top: 75%;
     left: 75%;
@@ -50,4 +50,52 @@ p{
   top: 85%;
     left: 75%;
     position: absolute;
+}
+
+.bg2{
+    background-color:whitesmoke;
+    min-height: 700px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    
+}
+
+h2{
+    position: absolute;
+    top:140%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
+}
+#p2{
+    position: absolute;
+    top: 155%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    font-family:monospace;
+    font-size: 15px;
+    color: gray;
+}
+.fiveline{
+    position: absolute;
+    top:170%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+        
+}
+.person{
+    position: absolute;
+    top: 155%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-family:monospace;
+    font-size: 15px;
+    /* color: gray; */
+
 }
